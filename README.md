@@ -39,10 +39,11 @@ request { object }
 
 types of request
 ----------------
-GET 
-DELETE 
-POST 
-PUT 
+GET
+
+DELETE
+POST
+PUT
 
 
 <a href="mailto:ranjit@google.com">mail me</a>
