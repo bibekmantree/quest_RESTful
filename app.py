@@ -1,12 +1,17 @@
 from flask import Flask, Response, request
 import json
 
-app = Flask("hello")
+app = Flask(__name__)
 
 products = [{
     "id": 1,
     "name": "pressure cooker"
 }]
+
+@app.route('/')
+def index():
+    return "Hello World!"
+
 
 @app.route("/api/products", methods=["GET"])
 def get():
@@ -29,6 +34,7 @@ def get():
     response.headers["Rama"] = "sdlfjs"
 
     return response
+
 
 @app.route("/api/products", methods=["POST"])
 def post():
@@ -53,6 +59,7 @@ def post():
     response.headers["Content-Type"] = "application/json"
 
     return response
+
 
 @app.route("/products")
 def home():
