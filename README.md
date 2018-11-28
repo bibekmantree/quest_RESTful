@@ -61,3 +61,13 @@ client <-----------application/json backend server
 socket
 ------
 client <-----> server <-----> client
+
+json (Javascript Object Notation)
+---------------------------------
+{
+  "people": [{
+    "name": "Samarjit",
+    "age": 27,
+    "familyMembers": [2, 3]
+  }]
+}
