@@ -36,6 +36,7 @@ request { object }
         formdata, json
 
     headers
+    url patterning (url parameter)
 
 types of request
 ----------------
