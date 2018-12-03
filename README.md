@@ -71,3 +71,36 @@ json (Javascript Object Notation)
     "familyMembers": [2, 3]
   }]
 }
+
+RDBMS (sql database) (Oracle, sql server, Microsoft sql) | (no sql database) text
+---------------------------------------------------------------------------------
+Person
+Address
+
+Person
+{
+    name:
+    age:
+    address: {
+        id:
+        full_address:
+        zipcode
+    }
+}
+
+{
+    name:
+}
+
+Address
+{
+    id:dsf
+    full_address:
+    zipcode
+}
+
+Normalization: spliting one kind of record to multiple kinds and establishing relation btw them
+
+Architecture
+----------------
+MongoServer <--mongodb://username:password@host:27017/RestFull--> (driver == client) (pymongo, javamongo, mongodb)<---->Rest App<---->Client browser
