@@ -99,7 +99,7 @@ Address
     zipcode
 }
 
-Normalization: spliting one kind of record to multiple kinds and establishing relation btw them
+Normalization: spliting one kind of record to multiple kinds and establishing relation btw them.
 
 Architecture
 ----------------
