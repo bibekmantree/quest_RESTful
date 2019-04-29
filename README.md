@@ -104,3 +104,4 @@ Normalization: spliting one kind of record to multiple kinds and establishing re
 Architecture
 ----------------
 MongoServer <--mongodb://username:password@host:27017/RestFull--> (driver == client) (pymongo, javamongo, mongodb)<---->Rest App<---->Client browser
+test
